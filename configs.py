@@ -8,7 +8,7 @@ class Config(object):
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002032630289"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "Tnshort.net")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "e12989d77e95a51073f70c4bb3d4b13fd9f22fb7")
-  BOT_OWNER = int(os.environ.get("BOT_OWNER", ""))
+  BOT_OWNER = int(os.environ.get("BOT_OWNER", "5076584501"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
