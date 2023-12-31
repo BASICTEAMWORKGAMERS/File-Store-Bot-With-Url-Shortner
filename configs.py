@@ -9,9 +9,9 @@ class Config(object):
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "Tnshort.net")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "e12989d77e95a51073f70c4bb3d4b13fd9f22fb7")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "5076584501"))
-  DATABASE_URL = os.environ.get("DATABASE_URL", "")
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
-  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://basicteamworkgamer:<1234rudh>@cluster0.ak0qki6.mongodb.net/?retryWrites=true&w=majority")
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002035894316")
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001803050002"))
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
   FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
   BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
@@ -32,11 +32,10 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 ╰──────[ 😎 ]───────────⍟
 """
   ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [VJ](https://telegram.me/KingVj01)
+🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [BTWG](https://telegram.me/btwg_basicteamworkgamers)
  
  I am Super noob Please Support My Hard Work.
 
-[Donate Me](https://t.me/KingVj01)
 """
   HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
