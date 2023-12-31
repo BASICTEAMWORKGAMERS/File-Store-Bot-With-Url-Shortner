@@ -5,7 +5,7 @@ class Config(object):
   API_HASH = os.environ.get("API_HASH", "a0da2f0c10923e1c080fd86ab4c04051")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "6590907577:AAFFsA9Oxp8S0VgZ3aVSkMQ-mtGweuyelzM")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "btwg_movies_searching_bot")
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", ""))
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002032630289"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "Tnshort.net")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "e12989d77e95a51073f70c4bb3d4b13fd9f22fb7")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", ""))
